@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Fatiando a Terra (examples)</title><link>http://fatiando.org</link><description>Geophysical modeling and inversion</description><lastBuildDate>Tue, 19 Feb 2013 16:37:58 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Example of creating a post through GitHub.com</title><link>http://fatiando.org/posts/example-post-from-github.com.html</link><description>&lt;div&gt;&lt;p&gt;This post was created
+<rss version="2.0"><channel><title>Fatiando a Terra (examples)</title><link>http://fatiando.org</link><description>Geophysical modeling and inversion</description><lastBuildDate>Thu, 21 Feb 2013 15:30:10 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Example of creating a post through GitHub.com</title><link>http://fatiando.org/posts/example-post-from-github.com.html</link><description>&lt;div&gt;&lt;p&gt;This post was created
 from the github.com website
 using the pull request system.&lt;/p&gt;
 &lt;p&gt;Latex equations
