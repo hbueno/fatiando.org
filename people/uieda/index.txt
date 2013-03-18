@@ -2,30 +2,207 @@
 .. date: 2013/02/14 19:21:32
 .. slug: index
 
-
 .. raw:: html
 
-    <iframe style="padding-left: 20px;" 
-        src="http://figshare.com/badges/6/97471" 
-        height="80" width="140" frameborder="0">
-    </iframe>
+    <!-- EMAIL -->
+    <p style="margin-top:-20px; margin-bottom:20px;">
+    <b>e-mail:</b>
+    <a href="mailto:leouieda@gmail.com">leouieda at gmail dot com</a>
+    </p>    
 
+    <!-- Portrait -->
+    <img src="../../portrait/leo.jpg" alt="Portrait" width="320px"
+     style="
+        float:right;
+        margin-left:20px;
+        margin-bottom:20px;
+        box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.45);
+        padding:3px;
+        border: 1px solid rgb(221, 221, 221);"
+    >
+
+    <!-- Icons with links to my profiles in other places -->
+    <div style="margin-bottom:20px;">
+        <!-- Twitter -->
+        <a href="https://twitter.com/leouieda"><img
+         style="padding-left:3px"
+         src="../../logo/twitter.png" alt="Twitter" title="Twitter"></a>
+        <!-- Google+ -->
+        <a href="https://plus.google.com/u/0/106943803771424855320/posts"><img
+         style="padding-left:3px"
+         src="../../logo/gplus-color.png" alt="Google+" title="Google+"></a>
+        <!-- Linkedin -->
+        <a href="http://www.linkedin.com/in/uieda"><img
+         style="padding-left:3px"
+         src="../../logo/linkedin.png" alt="Linkedin" title="Linkedin"></a>
+        <!-- Mendeley -->
+        <a href="http://www.mendeley.com/profiles/leonardo-uieda/"><img
+         style="padding-left:3px"
+         src="../../logo/mendeley.png" alt="Mendeley" title="Mendeley"></a>
+        <!-- figshare -->
+        <a href="http://figshare.com/authors/Leonardo%20Uieda/97471"><img
+         style="padding-left:3px"
+         src="../../logo/figshare.png" alt="figshare" title="figshare"></a>
+        <!-- Lattes -->
+        <a href="http://lattes.cnpq.br/8939551682050504"><img
+         style="padding-left:3px"
+         src="../../logo/lattes.png" alt="Lattes" title="Curriculo Lattes"></a>
+        <!-- Google Scholar -->
+        <a href="http://scholar.google.com.br/citations?user=qfmPrUEAAAAJ"><img
+         style="padding-left:3px"
+         src="../../logo/google-scholar.png" alt="Google Scholar"
+         title="Google Scholar"></a>
+        <!-- GitHub -->
+        <a href="https://github.com/leouieda"><img
+         style="padding-left:3px"
+         src="../../logo/github-larger.png" alt="GitHub" title="GitHub"></a>
+    </div>
+
+
+I'm a **geophysics** PhD student
+working on potential field inversion 
+at the `Observatório Nacional`_, Rio de Janeiro, Brazil.
+I'm currently a member of
+the IAG Joint Working Group
+`JWG2.8: Modeling and Inversion of Gravity-Solid Earth Coupling`_.
+My interests are
+`inverse problems`_,
+`open source software`_,
+and
+`Northern Shaolin Kung Fu`_.
+
+.. _Observatório Nacional: http://www.on.br
+.. _JWG2.8\: Modeling and Inversion of Gravity-Solid Earth Coupling: http://www.iag-commission2.ch/ToRWG.htm
+.. _inverse problems: https://en.wikipedia.org/wiki/Inverse_problem
+.. _open source software: https://github.com/leouieda
+.. _Northern Shaolin Kung Fu: https://en.wikipedia.org/wiki/Chan_Kowk_Wai
+
+Research interests
+==================
+
+* Potential field modeling in spherical coordinates
+* 3D potential field inversion
+* Inverse problem methodologies
+* Scientific software development
+* Different ways to incorporate geologic information into geophysical inversion
+* Teaching inverse problems
+
+Education
+=========
+
+* **PhD** in Geophysics (2011-*ongoing*): 
+  `Observatório Nacional`_, Rio de Janeiro, Brasil
+* **MSc** in Geophysics (2010-2011): 
+  `Observatório Nacional`_, Rio de Janeiro, Brasil
+* **International Exchange Program** (2008-2009):
+  `York University`_, Toronto, Canada
+* **BSc** in Geophysics (2009):
+  `Universidade de São Paulo`_, São Paulo, Brasil
+
+.. _York University: http://www.yorku.ca/esse/
+.. _Universidade de São Paulo: http://www.iag.usp.br
 
 Publications
 ============
 
-See my `Mendeley profile`_
-Mendeley profile for the full text pdfs and my `figshare profile`_ 
-for additional for videos, posters, etc.
+You can also use my Mendeley_ profile
+to **download** the full text **PDFs** and 
+my figshare_  profile
+for presentations, videos, posters, data, etc.
+
+.. _Mendeley: http://www.mendeley.com/profiles/leonardo-uieda
+.. _figshare: http://figshare.com/authors/Leonardo%20Uieda/97471
+.. _Oliveira Jr., V. C.: /people/oliveira-jr
 
 .. raw:: html
 
-    <iframe style="width: 800px; height: 800px" 
-        src="http://www.mendeley.com/profiles/leonardo-uieda/widget/32/2703216930/80e033b660fae91481430385fd30d4bf0a685dfb/" 
-        height="240" width="320" frameborder="0">
+    <!-- figshare badge -->
+    <iframe
+        style="padding-top:10px;"
+        src="http://figshare.com/badges/5/97471"
+        frameborder="0" height="80" width="260">
     </iframe>
 
+-- Journal articles --
+----------------------
 
+**Uieda, L.**, and V. C. F. Barbosa (2012), 
+Robust 3D gravity gradient inversion by planting anomalous densities, 
+Geophysics, 77(4), G55-G66, doi:10.1190/geo2011-0388.1. 
+[`pdf </papers/Uieda,Barbosa_2012(2).pdf>`__]
+[`supplement <http://dx.doi.org/10.6084/m9.figshare.91574>`__]
+[`animation <http://dx.doi.org/10.6084/m9.figshare.91469>`__]
 
-.. _Mendeley profile: http://www.mendeley.com/profiles/leonardo-uieda/
-.. _figshare profile: http://figshare.com/authors/Leonardo%20Uieda/97471
+`Oliveira Jr., V. C.`_, V. C. F. Barbosa, and **L. Uieda** (2012), 
+Polynomial equivalent layer, Geophysics, 78(1), G1–G13, 
+doi:10.1190/geo2012-0196.1.
+[`pdf </papers/OliveiraJr.,Barbosa,Uieda_2012.pdf>`__]
+
+-- Conference abstracts/proceedings -- 
+--------------------------------------
+
+**Uieda, L.**, and V. C. F. Barbosa (2012), 
+Use of the "shape-of-anomaly" data misfit in 3D inversion by planting 
+anomalous densities, SEG Technical Program Expanded Abstracts, pp. 1–6,
+doi:10.1190/segam2012-0383.1.
+[`pdf </papers/Uieda,Barbosa_2012(3).pdf>`__]
+[`slides <http://dx.doi.org/10.6084/m9.figshare.156864>`__]
+
+Carlos, D. U., **L. Uieda**, Y. Li, V. C. F. Barbosa, M. A. Braga, G. Angeli, 
+and G. Peres (2012), 
+Iron ore interpretation using gravity-gradient inversions in the Carajás, 
+Brazil, SEG Technical Program Expanded Abstracts, pp. 2008–2012,
+doi:10.1190/segam2012-0525.1.
+[`pdf </papers/Carlos,etal._2012.pdf>`__]
+[`slides <http://dx.doi.org/10.6084/m9.figshare.156865>`__]
+
+**Uieda, L.** and V. C. F. Barbosa (2012), 
+Rapid 3D inversion of gravity and gravity gradient data to test geologic 
+hypotheses, 
+International Symposium on Gravity, Geoid and Height Systems.
+[`abstract + slides <http://dx.doi.org/10.6084/m9.figshare.156859>`__]
+
+**Uieda, L.**, and V. C. F. Barbosa (2011), 
+Robust 3D gravity gradient inversion by planting anomalous densities, 
+SEG Technical Program Expanded Abstracts, vol. 30, pp. 820–824,
+doi:10.1190/1.3628201.
+[`pdf </papers/Uieda,Barbosa_2011.pdf>`__]
+[`slides <http://dx.doi.org/10.6084/m9.figshare.156863>`__]
+
+**Uieda, L.**, and V. C. F. Barbosa (2011), 
+3D gravity gradient inversion by planting density anomalies, 
+73th EAGE Conference & Exhibition incorporating SPE EUROPEC, pp. 1–5.
+[`pdf </papers/Uieda,Barbosa_2011(3).pdf>`__]
+[`poster <http://dx.doi.org/10.6084/m9.figshare.91511>`__]
+
+**Uieda, L.**, and V. C. F. Barbosa (2011), 
+3D gravity inversion by planting anomalous densities, 
+SBGf 2011 Expanded Abstracts, pp. 1–5.
+[`pdf </papers/Uieda,Barbosa_2011(2).pdf>`__]
+[`slides <http://dx.doi.org/10.6084/m9.figshare.156861>`__]
+
+**Uieda, L.**, E. P. Bomfim, C. Braitenberg, and E. Molina (2011), 
+Optimal forward calculation method of the Marussi tensor due to a geologic 
+structure at GOCE height, 
+Proc. of 4th International GOCE User Workshop, pp. 1–5.
+[`pdf </papers/Uieda,etal._2011.pdf>`__]
+[`poster <http://dx.doi.org/10.6084/m9.figshare.92624>`__]
+
+Carlos, D. U., V. C. F. Barbosa, **L. Uieda**, and M. A. Braga (2011), 
+Inversão de Dados de Aerogradiometria Gravimétrica 3D-FTG aplicada a exploração 
+mineral na Região do Quadrilátero Ferrífero, 
+SBGf 2011 Expanded Abstracts, pp. 1–6.
+[`pdf </papers/Carlos,etal._2011(2).pdf>`__]
+
+Carlos, D. U., **L. Uieda**, V. C. F. Barbosa, M. A. Braga, and 
+A. A. S. Gomes (2011), 
+In-depth imaging of an iron orebody from Quadrilatero Ferrifero using 3D gravity 
+gradient inversion, SEG Technical Program Expanded Abstracts, vol. 30, 
+pp. 902–906, doi:10.1190/1.3628219.
+[`pdf </papers/Carlos,etal._2011.pdf>`__]
+
+**Uieda, L.**, N. Ussami, and C. F. Braitenberg (2010), 
+Computation of the gravity gradient tensor due to topographic masses 
+using tesseroids, Eos Trans. AGU, Meet. Am. Suppl., vol. 91, Abstract G22A–04.
+[`abstract <http://www.agu.org/cgi-bin/SFgate/SFgate?language=English&verbose=0&listenv=table&application=ja10&convert=&converthl=&refinequery=&formintern=&formextern=&transquery=au=uieda&_lines=&multiple=0&descriptor=/data/epubs/wais/indexes/ja10/ja10%7C1000%7C3828%7CComputation%20of%20the%20gravity%20gradient%20tensor%20due%20to%20topographic%20masses%20using%20tesseroids%7CHTML%7Clocalhost:0%7C/data/epubs/wais/indexes/ja10/ja10%7C2890230%202894058%20/data2/epubs/wais/data/ja10/ja10.txt>`__]
+[`slides <http://dx.doi.org/10.6084/m9.figshare.156858>`__]

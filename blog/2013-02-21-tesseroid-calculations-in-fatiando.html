@@ -1,0 +1,170 @@
+<!DOCTYPE html><html lang="en"><head><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta charset="utf-8"><meta name="description" content=""><meta name="author" content="Leonardo Uieda"><title>Tesseroid calculations in Fatiando | Fatiando a Terra</title><link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"><link href="../assets/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"><link href="../assets/css/rst.css" rel="stylesheet" type="text/css"><link href="../assets/css/code.css" rel="stylesheet" type="text/css"><link href="../assets/css/colorbox.css" rel="stylesheet" type="text/css"><link href="../assets/css/slides.css" rel="stylesheet" type="text/css"><link href="../assets/css/theme.css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+    <![endif]--><link rel="alternate" type="application/rss+xml" title="RSS (en)" href="../rss.xml"><link rel="icon" href="../favicon.ico" sizes="32x32"></head><body>
+<!-- Menubar -->
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </a>
+
+            <a class="brand" href="../">
+            Fatiando a Terra
+            </a>
+            <!-- Everything you want hidden at 940px or less, place within here -->
+            <div class="nav-collapse collapse">
+                <ul class="nav"><li><a href="../blog">Blog</a>
+            </li><li><a href="http://fatiando.readthedocs.org">Docs</a>
+            </li><li><a href="../projects">Projects</a>
+            </li><li><a href="../people">People</a>
+            </li><li><a href="../contact">Contact</a>
+            </li><li><a href="https://github.com/leouieda/fatiando"><img src="../logo/github.png" title="Source code on GitHub"></a>
+            </li><li><a href="https://plus.google.com/109453117826543450682"><img src="../logo/gplus.png" title="Our Google+ page"></a>
+            </li><li><a href="../rss.xml"><img src="../logo/rss.png" title="RSS feed"></a>
+
+                </li></ul><ul class="nav pull-right"><li>
+    <a href="2013-02-21-tesseroid-calculations-in-fatiando.txt" id="sourcelink">Source</a>
+    </li>
+
+                </ul></div>
+        </div>
+    </div>
+</div>
+<!-- End of Menubar -->
+<div class="container-fluid" id="container-fluid">
+    <!--Body content-->
+    <div class="row-fluid">
+    <div class="span2"></div>
+    <div class="span8">
+    
+    <div class="postbox">
+    
+    <h1>Tesseroid calculations in Fatiando</h1>
+
+    <hr><small>
+        Posted: <time class="published" datetime="2013-02-21T14:36:43">2013-02-21 14:36</time>
+        
+
+        
+          |  More posts about
+            <a class="tag" href="../categories/tesseroids.html"><span class="badge badge-info">tesseroids</span></a>
+            <a class="tag" href="../categories/development.html"><span class="badge badge-info">development</span></a>
+            <a class="tag" href="../categories/fatiando.html"><span class="badge badge-info">fatiando</span></a>
+
+    </small>
+    <hr><img src="../logo/tesseroids-highres.png" style="float:left;
+    padding-right:10px"><p>One of the open-source software projects
+I have been working on
+is called <a class="reference external" href="http://leouieda.github.com/tesseroids">Tesseroids</a>.</p>
+<p>It is a collection of C programs
+that calculate the gravitational fields
+(e.g., gravitational potential, gravity anomaly, gradient tensor)
+of a
+<a class="reference external" href="http://tesseroids.readthedocs.org/en/latest/theory.html#what-is-a-tesseroid-anyway">tesseroid</a>.
+This is all done in spherical coordinates
+and can be used to model large regions
+where one would like
+to take the Earth's curvature
+into consideration.</p>
+<img alt="http://tesseroids.readthedocs.org/en/latest/_images/tesseroid.png" class="align-center" src="http://tesseroids.readthedocs.org/en/latest/_images/tesseroid.png" style="width: 300px;"><p>I'm proud of this software
+because it was my first
+real programming project.
+I've been working on it
+since my
+<a class="reference external" href="http://www.mendeley.com/research/c%C3%A1lculo-tensor-gradiente-gravim%C3%A9trico-utilizando-tesser%C3%B3ides/">undergrad years</a>
+and it has gone through
+several refactorings.
+The main problem with it, though,
+is that it is written in C.
+So it is very time consuming and tedious
+to add new features to it.
+One of the things that has been
+on my TODO list for quite some time
+is exporting to <a class="reference external" href="http://www.vtk.org/">VTK</a>.
+This would enable 3D plotting with
+<a class="reference external" href="http://www.paraview.org/">Paraview</a>
+or <a class="reference external" href="http://code.enthought.com/projects/mayavi/">Mayavi</a>.
+Another is adding parallel computations,
+which would be a pain to do in a portable way in C.
+But I never got around to actually start any of this.
+Specially with my PhD in the way
+and the much more pleasent experience
+of programming in <a class="reference external" href="http://www.python.org/">Python</a> on
+<a class="reference external" href="https://github.com/leouieda/fatiando">Fatiando a Terra</a>.</p>
+<p>So last week I finally got around
+to implementing tesseroid calculations and 3D plotting
+on Fatiando!
+You can check out the source code on the
+<a class="reference external" href="https://github.com/leouieda/fatiando/tree/devel">devel branch on GitHub</a>.
+Here is a little taste
+of a 2 tesseroid model
+and the resulting gravitational fields:</p>
+<img alt="/images/added-tesseroids-fatiando-example-tesseroid.png" src="../images/added-tesseroids-fatiando-example-tesseroid.png"><img alt="/images/added-tesseroids-fatiando-example-tesseroid-grav.png" src="../images/added-tesseroids-fatiando-example-tesseroid-grav.png" style="width: 400px;"><p>There are 2 scripts on the
+<a class="reference external" href="https://github.com/leouieda/fatiando/tree/devel/cookbook">cookbook</a>
+that demonstrate the usage.
+One even shows how to split a large model
+and calculate in parallel using the
+<a class="reference external" href="http://docs.python.org/2/library/multiprocessing.html">multiprocessing</a>
+package.</p>
+<script src="https://gist.github.com/leouieda/5006822.js"></script><p>This script generates a 40000 tesseroid model
+of the crust,
+plots it in Mayavi,
+calculates the gravity anomaly
+and plots that using a
+<a class="reference external" href="http://matplotlib.org/basemap/users/ortho.html">orthographic projection</a>
+(using the <a class="reference external" href="http://matplotlib.org/">matplotlib</a>
+<a class="reference external" href="http://matplotlib.org/basemap/">Basemap toolkit</a>).</p>
+<p>It's that easy!</p>
+<p>---</p>
+<p><a class="reference external" href="../people/uieda/index.html">Leonardo Uieda</a></p>
+    
+    <ul class="pager"><li class="previous">
+            <a href="first-publication/index.html">← Previous post</a>
+    </li></ul><div id="disqus_thread"></div>
+        <script type="text/javascript">
+        var disqus_shortname ="fatiando";
+            var disqus_url="http://www.fatiando.org/blog/2013-02-21-tesseroid-calculations-in-fatiando.html";
+        var disqus_title="Tesseroid calculations in Fatiando";
+        var disqus_identifier="cache/posts/2013-02-21-tesseroid-calculations-in-fatiando.html";
+        var disqus_config = function () { 
+            this.language = "en";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+    
+
+    </div>
+
+    </div>
+    </div>
+    <!--End of body content-->
+</div>
+<div class="footerbox">
+    <p style="padding-top:50px">Contents © 2013 <a href="../people/uieda">Leonardo Uieda</a> - Powered by <a href="http://nikola.ralsina.com.ar">Nikola</a> <br>  Except where otherwise noted, all content is avilable under a <a href="http://creativecommons.org/licenses/by/3.0/legalcode">CC-BY license</a>. <br><a href="http://creativecommons.org/licenses/by/3.0/legalcode"><img src="../logo/cc-by.jpg" width="90px" style="padding-top:5px"></a></p>
+</div>
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38125837-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><script src="../assets/js/jquery-1.7.2.min.js" type="text/javascript"></script><script src="../assets/js/bootstrap.min.js" type="text/javascript"></script><script src="../assets/js/jquery.colorbox-min.js" type="text/javascript"></script><script src="../assets/js/slides.min.jquery.js" type="text/javascript"></script><script type="text/javascript">jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"80%",maxHeight:"80%",scalePhotos:true});</script></body></html>
