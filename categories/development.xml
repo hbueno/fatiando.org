@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Fatiando a Terra (development)</title><link>http://www.fatiando.org</link><description>Geophysical modeling and inversion</description><lastBuildDate>Wed, 13 Mar 2013 13:27:26 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Tesseroid calculations in Fatiando</title><link>http://www.fatiando.org/blog/2013-02-21-tesseroid-calculations-in-fatiando.html</link><description>&lt;html&gt;&lt;body&gt;&lt;img src="/logo/tesseroids-highres.png" style="float:left;
+<rss version="2.0"><channel><title>Fatiando a Terra (development)</title><link>http://www.fatiando.org</link><description>Geophysical modeling and inversion</description><lastBuildDate>Mon, 18 Mar 2013 11:08:17 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Tesseroid calculations in Fatiando</title><link>http://www.fatiando.org/blog/2013-02-21-tesseroid-calculations-in-fatiando.html</link><description>&lt;html&gt;&lt;body&gt;&lt;img src="/logo/tesseroids-highres.png" style="float:left;
     padding-right:10px"&gt;&lt;p&gt;One of the open-source software projects
 I have been working on
 is called &lt;a class="reference external" href="http://leouieda.github.com/tesseroids"&gt;Tesseroids&lt;/a&gt;.&lt;/p&gt;
