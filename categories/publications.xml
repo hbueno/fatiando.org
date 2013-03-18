@@ -1,109 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Fatiando a Terra (publications)</title><link>http://www.fatiando.org</link><description>Geophysical modeling and inversion</description><lastBuildDate>Mon, 18 Mar 2013 11:08:17 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>First publication</title><link>http://www.fatiando.org/blog/first-publication/index.html</link><description>&lt;html&gt;&lt;body&gt;&lt;p&gt;
-My first paper, 
+<rss version="2.0"><channel><title>Fatiando a Terra (publications)</title><link>http://www.fatiando.org</link><description>Geophysical modeling and inversion</description><lastBuildDate>Mon, 18 Mar 2013 18:45:38 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>First publication</title><link>http://www.fatiando.org/blog/first-publication/index.html</link><description>&lt;html&gt;&lt;body&gt;&lt;p&gt;
+My first paper,
 "&lt;strong&gt;&lt;a href="http://dx.doi.org/10.1190/geo2011-0388.1"&gt;Robust 3D gravity gradient inversion by planting anomalous densities&lt;/a&gt;&lt;/strong&gt;",
-was finally published in the journal 
-&lt;em&gt;&lt;a href="http://library.seg.org/geophysics"&gt;Geophysics&lt;/a&gt;&lt;/em&gt;! 
-There is a copy available in my 
+was finally published in the journal
+&lt;em&gt;&lt;a href="http://library.seg.org/geophysics"&gt;Geophysics&lt;/a&gt;&lt;/em&gt;!
+There is a copy available in my
 &lt;a href="/blog/first-publication/www.mendeley.com/profiles/leonardo-uieda/"&gt;Mendeley profile&lt;/a&gt;.
 &lt;/p&gt;
 
 &lt;p&gt;
-It was an arduous review, with a complete rewrite of the methodology and 
-source code, but it was well worth it. 
-The end result looks much better and (in my opinion) is more readable. 
-This is the result of my 
-Master's dissertation at the 
-&lt;a href="http://www.on.br/"&gt;Observat&amp;#243;rio Nacional&lt;/a&gt; in Brazil, 
-where I'm currently doing my PhD. 
-The title may sound funny (even for geophysicists) and that is a good thing 
-because it was our intention! 
-It is a pun on the method because we use elements called "seeds" 
-(this one is 
-&lt;a href="http://link.aip.org/link/?GPY/51/988/1&amp;amp;Agg=doi"&gt;not by us&lt;/a&gt;) 
+It was an arduous review, with a complete rewrite of the methodology and
+source code, but it was well worth it.
+The end result looks much better and (in my opinion) is more readable.
+This is the result of my
+Master's dissertation at the
+&lt;a href="http://www.on.br/"&gt;Observat&amp;#243;rio Nacional&lt;/a&gt; in Brazil,
+where I'm currently doing my PhD.
+The title may sound funny (even for geophysicists) and that is a good thing
+because it was our intention!
+It is a pun on the method because we use elements called "seeds"
+(this one is
+&lt;a href="http://link.aip.org/link/?GPY/51/988/1&amp;amp;Agg=doi"&gt;not by us&lt;/a&gt;)
 that grow into the final solution (an anomalous density).
 &lt;/p&gt;
 
 &lt;p&gt;
-Go see &lt;a href="http://dx.doi.org/10.6084/m9.figshare.91469"&gt;an animation of 
-the inversion process&lt;/a&gt; on 
-&lt;a href="http://www.figshare.com/"&gt;figshare&lt;/a&gt; 
+Go see &lt;a href="http://dx.doi.org/10.6084/m9.figshare.91469"&gt;an animation of
+the inversion process&lt;/a&gt; on
+&lt;a href="http://www.figshare.com/"&gt;figshare&lt;/a&gt;
 because it explains the idea of the method much better than words!
 &lt;/p&gt;
 
 &lt;p&gt;
-This paper is about a method that 
-&lt;a href="http://fatiando.org/people/uieda/"&gt;me&lt;/a&gt; and 
-&lt;a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&amp;amp;id=K4793243Y4"&gt;my supervisor&lt;/a&gt; 
-developed for 3D &lt;em&gt;geophysical inversion&lt;/em&gt;. 
-Geophysical inversion is basically an estimation problem. 
-We try to estimate the physical properties (density, shape, etc) 
-of a geologic structure based on measured data 
-(like the gravity field perturbation of the structure). 
-This is problematic because it is an 
-&lt;a href="https://en.wikipedia.org/wiki/Well-posed_problem"&gt;ill-posed problem&lt;/a&gt;, 
-which means that there are an infinite number of solutions (non-unique) and, 
-if there is a solution, it is unstable (very sensitive to noise in the data). 
-The good about this is that it keeps me "employed" 
-(as much as grad student can be)! 
-The trick, then, is introducing more information into the inversion, 
-be it geometric, geologic, or merely mathematical. 
-So that is what we did, in a heuristic sort of way. 
-Plus, we used a smart algorithm to save 
+This paper is about a method that
+&lt;a href="http://fatiando.org/people/uieda/"&gt;me&lt;/a&gt; and
+&lt;a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&amp;amp;id=K4793243Y4"&gt;my supervisor&lt;/a&gt;
+developed for 3D &lt;em&gt;geophysical inversion&lt;/em&gt;.
+Geophysical inversion is basically an estimation problem.
+We try to estimate the physical properties (density, shape, etc)
+of a geologic structure based on measured data
+(like the gravity field perturbation of the structure).
+This is problematic because it is an
+&lt;a href="https://en.wikipedia.org/wiki/Well-posed_problem"&gt;ill-posed problem&lt;/a&gt;,
+which means that there are an infinite number of solutions (non-unique) and,
+if there is a solution, it is unstable (very sensitive to noise in the data).
+The good about this is that it keeps me "employed"
+(as much as grad student can be)!
+The trick, then, is introducing more information into the inversion,
+be it geometric, geologic, or merely mathematical.
+So that is what we did, in a heuristic sort of way.
+Plus, we used a smart algorithm to save
 &lt;strong&gt;a lot&lt;/strong&gt; of computation time and memory.
 &lt;/p&gt;
 
 &lt;p&gt;
-As is always the case in methodology research, 
-I had to implement the &lt;strong&gt;software&lt;/strong&gt; for doing all this. 
-At the time I started this project (around October 2010) 
-I was already working on an early version of 
-&lt;a href="https://github.com/leouieda/fatiando"&gt;Fatiando a Terra&lt;/a&gt;. 
-So naturally, I 
-&lt;a href="https://en.wikipedia.org/wiki/Fork_%28software_development%29"&gt;forked&lt;/a&gt; 
-the &lt;a href="https://bitbucket.org/fatiando/fatiando-dev"&gt;Fatiando repository on Bitbucket&lt;/a&gt; 
-and started implementing the inversion algorithm as module 
-(called &lt;em&gt;harvester&lt;/em&gt;) 
-of the &lt;a href="http://fatiando.readthedocs.org/en/latest/api/fatiando.html"&gt;fatiando&lt;/a&gt; 
-package. 
-The good thing about this is that every time I need some functionality, 
-I would go and implement it on Fatiando and pull the changes back. 
-So the Fatiando project grew a lot during this time 
-and became much more useful. 
-I also saw a lot of design flaws, 
-which I later resolved, when I was making the scripts to obtain the 
-results in the paper. 
-Now that the paper is out, 
-I've merged the changes back into Fatiando and they will 
-be &lt;strong&gt;out soon in the v0.1 release&lt;/strong&gt;! 
-There is also a &lt;strong&gt;command line program&lt;/strong&gt; 
-that runs the inversion, 
-if you don't want to get your hands dirty with 
-&lt;a href="http://www.python.org"&gt;Python&lt;/a&gt; scripts. 
-If you're curious, you can check out the 
-&lt;a href="https://bitbucket.org/fatiando/fatiando-dev/src"&gt;development source&lt;/a&gt; 
-and  also browse the 
+As is always the case in methodology research,
+I had to implement the &lt;strong&gt;software&lt;/strong&gt; for doing all this.
+At the time I started this project (around October 2010)
+I was already working on an early version of
+&lt;a href="https://github.com/leouieda/fatiando"&gt;Fatiando a Terra&lt;/a&gt;.
+So naturally, I
+&lt;a href="https://en.wikipedia.org/wiki/Fork_%28software_development%29"&gt;forked&lt;/a&gt;
+the &lt;a href="https://bitbucket.org/fatiando/fatiando-dev"&gt;Fatiando repository on Bitbucket&lt;/a&gt;
+and started implementing the inversion algorithm as module
+(called &lt;em&gt;harvester&lt;/em&gt;)
+of the &lt;a href="http://fatiando.readthedocs.org/en/latest/api/fatiando.html"&gt;fatiando&lt;/a&gt;
+package.
+The good thing about this is that every time I need some functionality,
+I would go and implement it on Fatiando and pull the changes back.
+So the Fatiando project grew a lot during this time
+and became much more useful.
+I also saw a lot of design flaws,
+which I later resolved, when I was making the scripts to obtain the
+results in the paper.
+Now that the paper is out,
+I've merged the changes back into Fatiando and they will
+be &lt;strong&gt;out soon in the v0.1 release&lt;/strong&gt;!
+There is also a &lt;strong&gt;command line program&lt;/strong&gt;
+that runs the inversion,
+if you don't want to get your hands dirty with
+&lt;a href="http://www.python.org"&gt;Python&lt;/a&gt; scripts.
+If you're curious, you can check out the
+&lt;a href="https://bitbucket.org/fatiando/fatiando-dev/src"&gt;development source&lt;/a&gt;
+and  also browse the
 &lt;a href="http://fatiando.readthedocs.org/en/latest/api/gravmag.harvester.html"&gt;documentation&lt;/a&gt;.
 &lt;/p&gt;
 
 &lt;p&gt;
-During the writing process, 
-we had a lot of complaints that the paper was too big 
-(it really was). 
-So I decided to finally start using 
-&lt;a href="http://www.figshare.com/"&gt;figshare&lt;/a&gt; and 
-uploaded the figures and sections that I had to remove as 
-&lt;a href="http://dx.doi.org/10.6084/m9.figshare.91574"&gt;supplementary material&lt;/a&gt; 
-and also an 
-&lt;a href="http://dx.doi.org/10.6084/m9.figshare.91469"&gt;animation&lt;/a&gt;! 
-There is also a &lt;a href="http://dx.doi.org/10.6084/m9.figshare.91511"&gt;poster&lt;/a&gt; 
-there that about this that I presented at the 
-&lt;a href="http://www.eage.org/events/index.php?eventid=408"&gt;2011 EAGE meeting&lt;/a&gt; 
-in Vienna. 
-So many thanks to the figshare team 
-(specially &lt;a href="https://plus.google.com/u/0/113271696737383211339"&gt;Mark Hahnel&lt;/a&gt;) 
+During the writing process,
+we had a lot of complaints that the paper was too big
+(it really was).
+So I decided to finally start using
+&lt;a href="http://www.figshare.com/"&gt;figshare&lt;/a&gt; and
+uploaded the figures and sections that I had to remove as
+&lt;a href="http://dx.doi.org/10.6084/m9.figshare.91574"&gt;supplementary material&lt;/a&gt;
+and also an
+&lt;a href="http://dx.doi.org/10.6084/m9.figshare.91469"&gt;animation&lt;/a&gt;!
+There is also a &lt;a href="http://dx.doi.org/10.6084/m9.figshare.91511"&gt;poster&lt;/a&gt;
+there that about this that I presented at the
+&lt;a href="http://www.eage.org/events/index.php?eventid=408"&gt;2011 EAGE meeting&lt;/a&gt;
+in Vienna.
+So many thanks to the figshare team
+(specially &lt;a href="https://plus.google.com/u/0/113271696737383211339"&gt;Mark Hahnel&lt;/a&gt;)
 for providing this great service that certainly made this paper better!
-&lt;/p&gt;
-
----
-&lt;br&gt;&lt;a href="/blog/people/uieda/index.html"&gt;Leonardo Uieda&lt;/a&gt;&lt;/body&gt;&lt;/html&gt;</description><guid>http://www.fatiando.org/blog/first-publication/index.html</guid><pubDate>Thu, 28 Jun 2012 16:52:00 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description><guid>http://www.fatiando.org/blog/first-publication/index.html</guid><pubDate>Thu, 28 Jun 2012 16:52:00 GMT</pubDate></item></channel></rss>
